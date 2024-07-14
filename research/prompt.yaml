@@ -1,0 +1,35 @@
+_type: prompt
+input_types: {}
+input_variables:
+- text
+metadata: null
+name: null
+output_parser: null
+partial_variables: {}
+tags: null
+template: '
+
+  You are an expert at creating questions based on coding materials and documentation.
+
+  Your goal is to prepare a coder or programmer for their exam and coding tests.
+
+  You do this by asking questions about the text below:
+
+
+  ------------
+
+  {text}
+
+  ------------
+
+
+  Create questions that will prepare the coders or programmers for their tests.
+
+  Make sure not to lose any important information.
+
+
+  QUESTIONS:
+
+  '
+template_format: f-string
+validate_template: false
